@@ -16,3 +16,7 @@ This is a simple web-based application that generates random quotes, allows savi
 
 ## Demo
 
+https://1iwi.github.io/day234/
+
+
+API requests (Get Quote) reaquire CORS extension because no proxy was implemented. 
