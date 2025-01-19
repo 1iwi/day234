@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Quote Generator</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="container">
+    <button id="theme-toggle">Toggle Dark Mode</button>
+    <h1>Random Quote Generator</h1>
+    <p id="quote">Click the button to see a random quote!</p>
+    <p id="no-quotes-message" style="color: red; display: none; margin: 20px 0;"></p>
+    <button id="copy-quote">Copy to Clipboard</button>
+    <p id="copy-feedback" style="color: green; font-size: 0.9rem; display: none;">Copied!</p>
+    <button id="new-quote">Get Quote</button>
+    <button id="share-quote">Share on X</button>
+    <div id="add-quote">
+        <form id="add-quote-form">
+            <h3>Enter a new quote here: </h3>
+            <input type="text" id="new-quote-id">
+            <button type="submit">Add Quote</button>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p1 id="no-quotes"></p1>
+        </form>
+        <div>
+          <h2>Generate new quote (API)</h2>
+          <p id="fetched-quote"></p>
+          <button id="get-quote">Get new quote</button>
+          <button id="save-quote">Save quote locally</button>
+        </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
